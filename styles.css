@@ -1,0 +1,57 @@
+@media (max-width: 500px) {
+  body {
+    background-color: dimgray; } }
+@media (min-width: 501px) {
+  body {
+    background-color: black; } }
+header {
+  padding: 2em;
+  color: white;
+  background-color: darkred;
+  text-align: center;
+  font-size: 40px; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black; }
+
+li {
+  float: left; }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+li a:hover {
+  background-color: dimgray; }
+
+.crest {
+  width: 30%;
+  margin: auto; }
+
+#fun_facts p {
+  color: white;
+  text-align: center;
+  font-size: 20px; }
+
+table {
+  color: white;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%; }
+
+td, th {
+  border: 1px solid white;
+  text-align: center;
+  padding: 10px; }
+
+p {
+  color: red; }
+
+/*# sourceMappingURL=styles.css.map */
